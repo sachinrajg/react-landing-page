@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-//import About from './components/About';
-//import Contact from './components/Contact';
+import NavBar from './components/NavBar';
+import CarouselComponent from './components/CarouselComponents';
 import LandingPage from './components/LandingPage';
 import Menu from './components/Menu';
 import Footer from './components/Footer';
@@ -16,7 +16,9 @@ const App = () => (
       <Route path="/contact" element={<Footer/>} />
       <Route path="/menu" element={<Menu />} />
     </Routes>
-    
+    <NavBar/>
+    <CarouselComponent/>
+    <LandingPage/>
     <Footer/>
   </Router>
   

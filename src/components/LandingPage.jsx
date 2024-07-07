@@ -1,6 +1,4 @@
 import React from 'react';
-import  NavBar  from './NavBar';
-import CarouselComponent from './CarouselComponents';
 import '../css/style.css'
 //import { Card } from 'react-bootstrap';
 
@@ -8,8 +6,7 @@ import '../css/style.css'
 const LandingPage=()=>{
     return(
         <div>
-        <NavBar/>
-        <CarouselComponent/>
+        
         <hr>
         </hr>
         <h1 id='best-seller'>Our Best Sellers</h1><hr></hr>
