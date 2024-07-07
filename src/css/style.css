@@ -1,0 +1,110 @@
+#img-1{
+    width: 100%;
+    height: 510px;
+}
+
+.nav-1
+{
+    margin-left: 60px;
+    
+}
+Container{
+    background-color: cadetblue;
+}
+.menu{
+  background-color: #343a40;
+}
+
+#coffee-menu-img{
+    width: 100%;
+    padding-top: 100px;
+}
+#best-seller{
+    text-align: center;
+    font-family:fantasy;
+    margin-top: 10px;
+}
+
+.row{
+  margin-top: 100px ;
+}
+.best-seller-card{
+
+    width: 350px;
+    height: 350px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    margin-top: 5px;
+
+}
+.Navbar{
+    position: sticky;
+  top: 0;    width: 100%;
+  z-index: 1000;
+
+}
+.card-img{
+    width: 100%;
+    height: 300px;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 5px 0;
+    margin-top: 100px;
+  }
+  
+  .footer-section {
+    margin-bottom: 2px;
+  }
+  
+  
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-contact {
+    text-align: center;
+    margin-top: 2px;
+  }
+  
+  .footer-contact p {
+    margin:  0;
+  }
+
+  @keyframes slideInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .best-seller-card {
+    animation: slideInRight 3s ease-out;
+  }
+  .best-seller-card:hover{
+    transform: scale(1.05);
+  }
+  
+  
