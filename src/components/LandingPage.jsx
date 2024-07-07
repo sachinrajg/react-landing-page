@@ -1,12 +1,15 @@
 import React from 'react';
 import '../css/style.css'
+import NavBar from './NavBar';
+import CarouselComponent from './CarouselComponents';
 //import { Card } from 'react-bootstrap';
 
 
 const LandingPage=()=>{
     return(
         <div>
-        
+        <NavBar/>
+        <CarouselComponent/>
         <hr>
         </hr>
         <h1 id='best-seller'>Our Best Sellers</h1><hr></hr>
